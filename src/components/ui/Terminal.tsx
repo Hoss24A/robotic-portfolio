@@ -1,8 +1,9 @@
+'use client';
 import { TypeAnimation } from 'react-type-animation';
 
-export function Terminal() {
+export default function Terminal() {
   return (
-    <div className="bg-gray-900 p-6 rounded-lg font-mono">
+    <div className="p-6 bg-gray-900 rounded-lg max-w-2xl mx-auto">
       <TypeAnimation
         sequence={[
           '> SYSTEM INITIALIZING...',
